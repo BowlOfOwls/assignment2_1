@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import "./styles.css";
+import AppLink from "./AppLink";
+import AboutMe from "./AboutMe";
+import Portfolio from "./Portfolio";
+import Contacts from "./Contacts";
+import picture from "./picture.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <span className="font-link-Title">LOW WEI KANG</span>
+      <AppLink />
+      <img
+        style={{ width: 250, alignself: "right", margin: "auto" }}
+        src={picture}
+        alt="react logo"
+      />
+
+      <AboutMe />
+      <Portfolio />
+      <Contacts />
     </div>
   );
 }

@@ -1,0 +1,50 @@
+.App {
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+  background-color: #ccbb95;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #80552f;
+  font-family: "Arial narrow", bold;
+  font-size: medium;
+}
+
+.font-link-Title {
+  color: white;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.font-link-Franklin-header {
+  color: #dbd7d2;
+  font-family: "Franklin Gothic Medium";
+  font-size: large;
+}
+
+.font-link-Franklin-header {
+  color: #dbd7d2;
+  font-family: "Franklin Gothic Medium";
+  font-size: large;
+}
+
+.font-link-Helvetica {
+  color: #f3f1f0;
+  font-family: "Helvetica";
+  font-style: italic;
+  font-size: medium;
+}
+
+.font-link-Helvetica-small {
+  color: white;
+  font-family: "Helvetica";
+  font-size: small;
+}
